@@ -20,6 +20,9 @@ dependencies {
     implementation 'com.graphql-java-kickstart:graphql-java-tools:13.1.1'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
 }
 
 test {
